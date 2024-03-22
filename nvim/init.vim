@@ -90,10 +90,10 @@ let g:closetag_emptyTags_caseSensitive = 1
 let g:jsx_ext_required = 0
 
 " OCaml Merlin LSP setup
-let g:opamshare = substitute(system('opam var share'),'\n$','','''')
-execute "set rtp+=" . g:opamshare . "/merlin/vim"
-
-:execute "helptags " . g:opamshare . "/merlin/vim/doc"
+" let g:opamshare = substitute(system('opam var share'),'\n$','','''')
+" execute "set rtp+=" . g:opamshare . "/merlin/vim"
+" 
+" :execute "helptags " . g:opamshare . "/merlin/vim/doc"
 
 
 " use <tab> for trigger completion and navigate to the next complete item
